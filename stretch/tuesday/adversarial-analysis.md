@@ -83,6 +83,11 @@ Cite at least 3 specific (qid, question, gold, predicted) tuples that illustrate
   predicted: `producer and composer`. The model identified the correct semantic
   region but over-extended the answer span into a compound occupational phrase.
 
+- **(ADV_16)** *What genre is the album The Great Escape Artist?* → gold:
+  `alternative rock`, predicted: `alternative rock`. The model correctly 
+  extracted the genre label when it appeared explicitly at the end of the 
+  context with no competing descriptive clauses
+
 ## 4. Production Defense
 
 The most targeted engineering defense is a **confidence-threshold filter**
