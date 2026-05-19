@@ -1,0 +1,28 @@
+{
+  "em": 0.7575757575757576,
+  "f1": 0.8405483405483405,
+  "n": 33,
+  "per_pattern": {
+    "type-question": {
+      "em": 0.6,
+      "f1": 0.7158730158730158,
+      "n": 15
+    },
+    "genre-question": {
+      "em": 1.0,
+      "f1": 1.0,
+      "n": 8
+    },
+    "role-question": {
+      "em": 0.7142857142857143,
+      "f1": 0.8571428571428571,
+      "n": 7
+    },
+    "control": {
+      "em": 1.0,
+      "f1": 1.0,
+      "n": 3
+    }
+  },
+  "model": "distilbert-base-cased-distilled-squad"
+}

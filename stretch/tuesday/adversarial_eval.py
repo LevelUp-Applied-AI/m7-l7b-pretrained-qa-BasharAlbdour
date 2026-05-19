@@ -26,8 +26,12 @@ def load_adversarial_set(path: str = "stretch/tuesday/adversarial_set.csv") -> p
     # TODO: read the CSV at the given path
     # TODO: verify all five required columns exist; raise a clear error if any are missing
     # TODO: return the DataFrame
-    raise NotImplementedError("load_adversarial_set not implemented")
-
+    df=pd.read_csv(path)
+    required={"qid", "question", "context", "gold_answer", "pattern_tag"}
+    missing=required-set(df.columns)
+    if missing:
+        raise ValueError(f"{path} is missing some required columns:{missing}")
+    return df
 
 def evaluate_adversarial(qa, df: pd.DataFrame) -> dict:
     """
@@ -44,8 +48,26 @@ def evaluate_adversarial(qa, df: pd.DataFrame) -> dict:
     # TODO: enrich each prediction with its pattern_tag (lookup from df by qid)
     # TODO: compute per-pattern aggregates (group by pattern_tag, mean em + f1, count)
     # TODO: return the combined dict
-    raise NotImplementedError("evaluate_adversarial not implemented")
-
+    base=lab.evaluate_qa(qa,df)
+    qid_to_tag=dict(zip(df["qid"],df["pattern_tag"]))
+    for pred in base["predictions"]:
+        pred["pattern_tag"]=qid_to_tag[pred["qid"]]
+    per_pattern={}
+    for tag in df["pattern_tag"].unique():
+        tag_preds = [p for p in base["predictions"] if p["pattern_tag"] == tag]
+        per_pattern[tag] = {
+            "em": sum(p["em"] for p in tag_preds) / len(tag_preds),
+            "f1": sum(p["f1"] for p in tag_preds) / len(tag_preds),
+            "n": len(tag_preds),
+        }
+    
+    return {
+        "em":base["em"],
+        "f1":base["f1"],
+        "n":base["n"],
+        "per_pattern": per_pattern,
+        "predictions": base["predictions"],
+    }
 
 def main() -> None:
     """Load adversarial set, run evaluation, write predictions + metrics."""
