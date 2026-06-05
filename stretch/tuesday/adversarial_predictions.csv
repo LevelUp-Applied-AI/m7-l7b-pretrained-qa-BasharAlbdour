@@ -1,0 +1,34 @@
+qid,question,context_excerpt,gold_answer,predicted_answer,em,f1,pattern_tag
+ADV_01,What is Sicko?,Filmmaker Michael Moore whose new documentary Sicko takes on America's health ca,documentary,America's health care system,0,0.0,type-question
+ADV_02,What is Twitter?,Used by celebrities politicians and journalists around the world to instantly re,microblogging service,a microblogging service,1,1.0,type-question
+ADV_03,What is the Kindle?,Amazon introduced the Kindle to expand digital reading and wireless book deliver,e-reader device,to expand digital reading and wireless book delivery,0,0.0,type-question
+ADV_04,What is Pandora?,Pandora uses the Music Genome Project to analyze listening habits recommend song,music-streaming service,Music Genome Project to analyze listening habits recommend songs,0,0.0,type-question
+ADV_05,What is Wikipedia?,Edited collaboratively by volunteers around the globe and frequently referenced ,free online encyclopedia,free online encyclopedia,1,1.0,type-question
+ADV_06,What is Kickstarter?,Thousands of creators have used Kickstarter to attract online supporters and gat,crowdfunding platform,a crowdfunding platform,1,1.0,type-question
+ADV_07,What is Instagram?,Popular among influencers and photographers for sharing filtered images and shor,photo-sharing app,a photo-sharing app,1,1.0,type-question
+ADV_08,What is Bitcoin?,Often discussed alongside banking regulation online fraud and speculative invest,digital currency,a digital currency transferred electronically without intermediaries,0,0.5,type-question
+ADV_09,What is Airbnb?,Travelers searching for affordable lodging and homeowners seeking extra income c,home-sharing platform,a home-sharing platform for short-term rentals,0,0.5714285714285715,type-question
+ADV_10,What is Spotify?,Known for personalized playlists podcasts and algorithmic music recommendations ,music-streaming platform,a music-streaming platform,1,1.0,type-question
+ADV_11,What is Uber?,Instead of relying on traditional taxi dispatch systems millions of passengers u,ride-hailing app,a ride-hailing app,1,1.0,type-question
+ADV_12,What is Snapchat?,Teenagers and social media influencers helped popularize Snapchat which operates,messaging app,a messaging app,1,1.0,type-question
+ADV_13,What is Tesla?,While Tesla also develops battery technology solar panels and renewable energy s,electric vehicle manufacturer,an electric vehicle manufacturer,1,1.0,type-question
+ADV_14,What is the Hubble?,Scientists studying distant galaxies black holes and the origins of the universe,space telescope,a space telescope orbiting Earth,0,0.6666666666666666,type-question
+ADV_15,What is Reddit?,Known for viral discussions memes and large online communities Reddit functions ,social news aggregator,a social news aggregator,1,1.0,type-question
+ADV_16,What genre is the album The Great Escape Artist?,Critics described Jane's Addiction's The Great Escape Artist as a triumphant com,alternative rock,alternative rock,1,1.0,genre-question
+ADV_17,What genre is the film Zack and Miri Make a Porno?,Although the movie contains romance awkward situations and adult humor Zack and ,comedy,comedy,1,1.0,genre-question
+ADV_18,What genre is the show True Blood?,Featuring vampires political conflict romance and supernatural violence True Blo,fantasy drama,fantasy drama,1,1.0,genre-question
+ADV_19,What genre is the book The Da Vinci Code?,Filled with hidden symbols religious conspiracies and dangerous investigations T,mystery thriller,mystery thriller,1,1.0,genre-question
+ADV_20,What genre is the film District 9?,Set in Johannesburg and centered on segregated alien refugees District 9 combine,science fiction,science fiction,1,1.0,genre-question
+ADV_21,What genre is the show Dexter?,Although the series contains psychological themes violent crimes and family dram,crime drama,crime drama,1,1.0,genre-question
+ADV_22,What genre is the film The Hangover?,Filled with missing memories bizarre discoveries and reckless partying The Hango,comedy,comedy,1,1.0,genre-question
+ADV_23,What genre is the album Born This Way?,Blending electronic beats dance rhythms and messages about identity Lady Gaga's ,pop,pop,1,1.0,genre-question
+ADV_24,What is Michael Moore's occupation?,Known for criticizing corporate power and government policy through politically ,filmmaker,filmmaker,1,1.0,role-question
+ADV_25,What is Quincy Jones's occupation?,Having collaborated with artists ranging from Frank Sinatra to Michael Jackson Q,producer,producer and composer,0,0.5,role-question
+ADV_26,What is Enya's occupation?,Known for layering vocals into atmospheric orchestral soundscapes and producing ,singer,singer and musician,0,0.5,role-question
+ADV_27,What is Karl Malden's occupation?,After winning an Academy Award and starring in The Streets of San Francisco Karl,actor,actor,1,1.0,role-question
+ADV_28,What is Bear Grylls's occupation?,Best known for demonstrating dangerous survival techniques in remote environment,adventurer,adventurer,1,1.0,role-question
+ADV_29,What is Roger Ebert's occupation?,Famous for awarding films a thumbs up or thumbs down on television Roger Ebert b,film critic,film critic,1,1.0,role-question
+ADV_30,What is Vera Lynn's occupation?,During World War II Vera Lynn became internationally recognized as a singer whos,singer,singer,1,1.0,role-question
+ADV_31,What is Kickstarter?,Kickstarter is a crowdfunding platform that helps creators raise money online fo,crowdfunding platform,a crowdfunding platform,1,1.0,control
+ADV_32,What is the name of Michael Jackson's biggest selling album?,For the past three weeks in a row Michael Jackson's Number Ones has been the big,Number Ones,Number Ones,1,1.0,control
+ADV_33,What genre is the album The Great Escape Artist?,The band Jane's Addiction returned with The Great Escape Artist a record praised,alternative rock,alternative rock,1,1.0,control
