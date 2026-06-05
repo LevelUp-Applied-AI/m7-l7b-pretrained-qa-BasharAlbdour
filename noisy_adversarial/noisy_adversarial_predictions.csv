@@ -1,0 +1,34 @@
+qid,question,context_excerpt,gold_answer,predicted_answer,em,f1,pattern_tag
+ADV_01,what type of show does better call saul belong to?,better call saul is an american crime drama television series created by vince g,crime drama,crime drama,1,1.0,type-question
+ADV_02,what kinda league is la liga suppose to be?,la liga is a proffesional football league in spain featuring clubs like real mad,professional football league,proffesional football league,0,0.6666666666666666,type-question
+ADV_03,how would you describe the bernabeu stadium exactly?,santiago bernabeu stadium located in madrid spain has went through many renovtio,football stadium,a football stadium,1,1.0,type-question
+ADV_04,discord nowadays is considered what sort of platform?,discord first become populer with gamers but later attracted students developers,voice and text communication platform,voice and text communication,0,0.888888888888889,type-question
+ADV_05,stack overflow is mostly known as what?,stack overflow was founded by software developers jeff atwood and joel spolsky a,question-and-answer website,a question-and-answer website,1,1.0,type-question
+ADV_06,breaking bad belongs to what genre exactly?,breaking bad aired between 2008 and 2013 and follow walter white who slowly tran,crime thriller,crime thriller,1,1.0,genre-question
+ADV_07,champions league falls under what type of tornament?,the uefa champions league is organzied every year by european football associati,continental football tournament,continental football tournament,1,1.0,type-question
+ADV_08,gitlab been described by engineers as what kind of software?,gitlab started as a small open source project and later grow into a massive plat,DevOps platform,DevOps,0,0.6666666666666666,type-question
+ADV_09,the office tv series belongs to which genre exactly?,the office which star steve carell as michael scott become famous for awkward hu,sitcom,sitcom,1,1.0,genre-question
+ADV_10,people in tech usually classify linux as what?,linux was originally created by linus torvalds in 1991 and over the years it bec,open-source operating system,open-source operating system,1,1.0,type-question
+ADV_11,reddit nowadays functions mainly as what type of site?,reddit started with only a few users but eventually become one of the largest we,social news aggregator,social news aggregator,1,1.0,type-question
+ADV_12,the witcher series is generally considered what genre?,the witcher which is based on books written by andrzej sapkowski include monster,fantasy drama,fantasy drama,1,1.0,genre-question
+ADV_13,visual studio code is basically what kinda tool?,visual studio code was relased by microsoft in 2015 and developers quickly start,source-code editor,source-code editor,1,1.0,type-question
+ADV_14,spotify can be categorized as what type of service?,spotify launch in sweden and later become one of the biggest audio companies in ,music-streaming service,music-streaming,0,0.6666666666666666,type-question
+ADV_15,real madrid is considered what kind of organization?,real madrid was founded back in 1902 and the club won more champions league trop,professional football club,professional football,0,0.8,type-question
+ADV_16,the mandalorian belongs to what television category?,the mandalorian was one of the first major disney plus originals and the series ,science fiction western,science fiction western,1,1.0,genre-question
+ADV_17,arduino is described as what exactly?,arduino started as a project for students and hobbyists who needed affordable el,open-source electronics platform,a project for students and hobbyists who needed affordable electronics tools,0,0.15384615384615383,type-question
+ADV_18,dark on netflix falls under which genre?,dark was produce in germany and the show become famous for complicated timelines,science fiction thriller,science fiction thriller,1,1.0,genre-question
+ADV_19,slack mostly functions as what type of application?,slack become populer with startups software companies and remote engineering tea,workplace communication platform,workplace communication platform,1,1.0,type-question
+ADV_20,the godfather is mainly considered what kind of movie?,the godfather directed by francis ford coppola is often called one of the greate,crime film,crime film,1,1.0,genre-question
+ADV_21,github copilot has been described as what by developers?,github copilot was trained using massive amounts of public code and many program,AI coding assistant,AI coding assistant,1,1.0,type-question
+ADV_22,jimmy mcgill worked professionally as what before becoming saul goodman?,jimmy mcgill struggled financially for years and constantly got into trouble bef,lawyer,lawyer,1,1.0,role-question
+ADV_23,carlo ancelotti is professionally known as what?,carlo ancelotti managed clubs like milan chelsea psg and real madrid during his ,football manager,football manager,1,1.0,role-question
+ADV_24,linus torvalds is best known for working as?,linus torvalds was born in finland and become one of the most influencial people,software engineer,software engineer and programmer,0,0.6666666666666666,role-question
+ADV_25,bob odenkirk built his career mainly as what?,before starring in better call saul bob odenkirk spend years writing comedy sket,actor,comedian and screenwriter,0,0.0,role-question
+ADV_26,toni kroos held what role professionally?,toni kroos played for bayern munich and later real madrid where he won several e,footballer,footballer,1,1.0,role-question
+ADV_27,vince gilligan is mostly recognized professionally as?,vince gilligan originally worked on the x files before creating breaking bad and,television writer,television writer and producer,0,0.6666666666666666,role-question
+ADV_28,What is GitHub?,github is a developer platform where programmers host code collaborate on projec,developer platform,a developer platform,1,1.0,control
+ADV_29,Which genre does Breaking Bad belong to?,breaking bad is a crime thriller series about a chemistry teacher who turns into,crime thriller,crime thriller,1,1.0,control
+ADV_30,What role does Carlo Ancelotti have professionally?,carlo ancelotti is a football manager who coached clubs such as real madrid mila,football manager,manager,0,0.6666666666666666,control
+ADV_31,discord is what type of app?,discord is a voice and text communication platform used by gamers students and o,voice and text communication platform,voice and text communication,0,0.888888888888889,control
+ADV_32,linux can be described as what?,linux is an open-source operating system used on servers desktops supercomputers,open-source operating system,an open-source operating system,1,1.0,control
+ADV_33,the office is what genre of show?,the office is a sitcom filmed in a mockumentary style and centered around employ,sitcom,sitcom,1,1.0,control
